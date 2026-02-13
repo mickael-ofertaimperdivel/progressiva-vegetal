@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Luxury Gold & Black Palette */
+  --background: 0 0% 100%;       /* White */
+  --foreground: 0 0% 10%;        /* Very dark gray/black */
+  
+  /* Primary is Gold */
+  --primary: 43 74% 49%;         /* Gold/Metallic */
+  --primary-foreground: 0 0% 100%; /* White text on gold */
+  
+  --secondary: 0 0% 96%;         /* Very light gray for backgrounds */
+  --secondary-foreground: 0 0% 10%;
+
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+
+  --accent: 43 74% 49%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 43 74% 49%;
+
+  --radius: 0.5rem;
+  
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    @apply font-bold tracking-tight text-foreground;
+  }
+}
+
+/* Custom Gradients & Effects */
+.gold-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#D4AF37] via-[#F2D06B] to-[#D4AF37];
+}
+
+.gold-gradient-bg {
+  @apply bg-gradient-to-r from-[#D4AF37] via-[#F2D06B] to-[#D4AF37];
+}
+
+.premium-card {
+  @apply bg-white border border-yellow-500/20 shadow-xl shadow-yellow-900/5;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}

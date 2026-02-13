@@ -1,0 +1,69 @@
+You are editing an existing Brazilian sales page that is already built.
+
+IMPORTANT RULES:
+- Do NOT rebuild the page from scratch.
+- ONLY edit and fix existing elements.
+- All visible texts on the website MUST be in Brazilian Portuguese (pt-BR).
+- The page must have NO BUGS.
+- Ensure perfect responsiveness on mobile and desktop.
+- Keep a clean, professional, high-conversion layout.
+
+REQUESTED EDITS (FOLLOW EXACTLY):
+
+1. MAIN TOP HEADLINE (VERY IMPORTANT):
+- At the very top of the page, where the product name "Progressiva Vegetal" is currently displayed:
+  - REPLACE this text with:
+    "PAGAMENTO NA ENTREGA"
+- This headline must be:
+  - VERY LARGE
+  - BOLD
+  - RED COLOR
+  - The most visible element on the page
+- This is the main hook of the page.
+
+2. SECONDARY HEADLINE / SECOND BANNER:
+- In the second highlighted message or second notice where it currently says "Pagamento na Entrega":
+  - CHANGE the text to:
+    "Progressiva Vegetal"
+- Make "Progressiva Vegetal":
+  - Large
+  - Bold
+  - Highly visible
+- This should appear right at the beginning of the page, just below the main red headline.
+
+3. TEXT HIERARCHY (TOP OF PAGE):
+- Ensure the visual hierarchy is:
+  1. PAGAMENTO NA ENTREGA (red, very large)
+  2. Progressiva Vegetal (product name, very visible)
+- This hierarchy must be clear immediately when the page loads.
+
+4. BUY BUTTON FIX (CRITICAL BUG FIX):
+- The buy button at the bottom of the page currently has sizing and click issues.
+- FIX the button so that:
+  - It fits perfectly inside its container
+  - The text does NOT overflow
+  - The entire button is clickable
+- KEEP the button color as GOLD.
+- Align the text properly inside the gold button.
+- Make sure the button looks standard, clean, and professional.
+- Ensure full responsiveness on mobile.
+
+5. BEFORE AND AFTER IMAGES SECTION:
+- ADD a new section titled in Portuguese:
+  "Antes e Depois do Resultado da Progressiva"
+- This section must:
+  - Support multiple images
+  - Use image placeholders
+  - Be responsive (grid or gallery layout)
+- The user will manually replace the images later.
+- Emphasize visible transformation and results.
+
+6. FINAL QUALITY CHECK:
+- No layout breaks
+- No visual bugs
+- No overlapping elements
+- Consistent spacing, fonts, and colors
+- Strong focus on conversion and clarity
+
+FINAL GOAL:
+Improve clarity, visual hierarchy, and professionalism of the sales page while keeping the entire content in Brazilian Portuguese and emphasizing "Pagamento na Entrega" as the main offer.

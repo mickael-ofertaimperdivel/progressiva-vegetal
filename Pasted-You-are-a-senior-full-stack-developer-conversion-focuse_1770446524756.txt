@@ -1,0 +1,102 @@
+You are a senior full-stack developer, conversion-focused copywriter, and UX/UI designer.
+
+Your task is to build a HIGH-CONVERTING SALES PAGE (landing page) for a Brazilian product: a "Progressiva Vegetal" (plant-based hair straightening treatment).
+
+IMPORTANT RULES:
+- The entire website content (texts, buttons, copy, headlines) MUST be written in Brazilian Portuguese (pt-BR).
+- The code, structure, and logic can be in English, but the visible content must be in Portuguese.
+- The page must be FAST, RESPONSIVE (mobile-first), clean, modern, and with NO BUGS.
+- Use HTML, CSS, and JavaScript only (no backend needed).
+- Optimize for conversion above everything.
+
+MAIN OFFER FOCUS:
+The core and repeated offer of the page MUST be:
+👉 "PAGUE SÓ NA ENTREGA"
+👉 "Você só paga quando o produto chegar na sua casa"
+👉 "Sem pagamento antecipado"
+👉 "Entrega para todo o Brasil"
+
+This message must be VERY EXPLICIT and repeated multiple times across the page.
+
+PAGE STRUCTURE (MANDATORY):
+
+1. TOP SECTION (Above the Fold):
+- Big, bold headline with strong emphasis on:
+  "PAGUE SÓ NA ENTREGA"
+- Subheadline reinforcing:
+  "Você só paga quando o produto chegar na sua casa"
+- Visual badge or highlight saying:
+  "Pagamento na Entrega • 100% Seguro • Todo o Brasil"
+- Primary CTA button:
+  "COMPRAR AGORA – PAGAR SÓ NA ENTREGA"
+
+2. PRODUCT IMAGES:
+- Display high-quality product images (use placeholders if needed).
+- Include image gallery or product mockups.
+- Images should be visually appealing and professional.
+
+3. STRONG SALES COPY (Persuasive Copywriting):
+- Write an irresistible sales copy in Brazilian Portuguese.
+- Focus on:
+  - Benefits of the progressiva vegetal
+  - Smooth, straight, shiny hair
+  - No damage, no harsh chemicals
+  - Suitable for all hair types
+  - Professional results at home
+- Use emotional triggers, desire, transformation, and social proof language.
+
+4. PAYMENT ON DELIVERY EXPLANATION (VERY IMPORTANT):
+- Dedicated section explaining clearly:
+  - The customer DOES NOT pay anything online
+  - Payment is made ONLY when the product arrives
+  - The delivery person brings the product and collects payment
+  - Available for all regions of Brazil
+- Reinforce trust and security.
+
+5. TRUST & SECURITY SECTION:
+- Icons or text explaining:
+  - 100% Seguro
+  - Sem risco
+  - Sem pagamento antecipado
+  - Empresa confiável
+- Explain why payment on delivery is safe.
+
+6. BENEFITS SECTION:
+- Bullet points or cards explaining:
+  - Ingredientes vegetais
+  - Resultado profissional
+  - Sem formol
+  - Cabelo liso, hidratado e com brilho
+  - Fácil aplicação
+
+7. CALL TO ACTION (MULTIPLE TIMES):
+- Multiple CTA buttons throughout the page:
+  - "QUERO PAGAR SÓ NA ENTREGA"
+  - "COMPRAR AGORA – PAGAMENTO NA ENTREGA"
+- Buttons should scroll or simulate checkout intent.
+
+8. FINAL URGENCY SECTION:
+- Scarcity and urgency copy:
+  - "Oferta por tempo limitado"
+  - "Estoque limitado"
+  - "Aproveite enquanto ainda pode pagar só na entrega"
+
+DESIGN REQUIREMENTS:
+- Clean, modern Brazilian e-commerce style
+- Use colors that convey beauty, trust, and professionalism
+- Large fonts, easy readability
+- Mobile optimized
+- Smooth scrolling
+- No broken layouts
+
+TECHNICAL REQUIREMENTS:
+- No bugs
+- No broken links
+- Buttons should be functional (even if simulated)
+- Code must be clean and organized
+- Comments explaining main sections
+
+FINAL GOAL:
+Create a SALES PAGE that maximizes conversions, builds massive trust, and makes the visitor feel 100% safe because they ONLY PAY WHEN THE PRODUCT IS DELIVERED.
+
+This page must feel like a “no-brainer” offer.
