@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Progressiva Vegetal Premium | Pague na Entrega</title>
+<title>Progressiva Vegetal Premium | Receba em Casa</title>
 
 <style>
 body{
@@ -32,7 +32,7 @@ h2{
 }
 
 p{
-  line-height:1.5;
+  line-height:1.6;
 }
 
 img{
@@ -44,10 +44,11 @@ img{
 .badge{
   background:#00a650;
   color:#fff;
-  padding:10px;
+  padding:12px;
   border-radius:8px;
   font-weight:bold;
   margin:15px 0;
+  font-size:15px;
 }
 
 .beneficios{
@@ -77,6 +78,11 @@ img{
   background:#008f43;
 }
 
+.seguro{
+  font-size:13px;
+  margin-top:-10px;
+}
+
 .depoimento{
   background:#f2f2f2;
   padding:15px;
@@ -85,10 +91,11 @@ img{
   font-size:14px;
 }
 
-.garantia{
-  background:#eafaf1;
+.faq{
+  background:#f9f9f9;
   padding:15px;
   border-radius:10px;
+  margin-bottom:10px;
   font-size:14px;
 }
 </style>
@@ -98,29 +105,37 @@ img{
 
 <div class="container">
 
-<h1>🌿 Liso Absoluto na Primeira Aplicação</h1>
+<h1>🌿 Liso Natural Já na Primeira Aplicação</h1>
 
-<p><strong>Progressiva 100% Vegetal</strong> que reduz volume, elimina frizz e deixa o cabelo alinhado e brilhante já no primeiro uso.</p>
+<p><strong>Progressiva Vegetal Premium</strong> desenvolvida para reduzir volume, eliminar frizz e proporcionar brilho intenso sem agredir os fios.</p>
 
 <div class="badge">
-🚚 PAGUE SOMENTE NA ENTREGA — SEM CARTÃO E SEM RISCO
+🚚 Receba em Casa e Acerte Somente no Momento da Entrega
 </div>
 
 <img src="product.webp" alt="Progressiva Vegetal Premium">
 
 <ul class="beneficios">
+<li>✔ Fórmula vegetal</li>
 <li>✔ Sem formol</li>
 <li>✔ Não arde os olhos</li>
 <li>✔ Compatível com outras químicas</li>
-<li>✔ Resultado imediato</li>
-<li>✔ Brilho intenso e toque sedoso</li>
+<li>✔ Resultado visível já na primeira aplicação</li>
 </ul>
 
-<a class="cta" href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150" target="_blank">
-QUERO RECEBER E PAGAR NA ENTREGA
+<p style="font-size:14px;">
+Após clicar, você será direcionada para preencher seus dados de envio.
+</p>
+
+<a class="cta" href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150">
+QUERO RECEBER EM CASA
 </a>
 
-<h2>Veja Resultados Reais</h2>
+<p class="seguro">
+🔒 Seus dados estão protegidos. Você só acerta quando o produto chegar.
+</p>
+
+<h2>Resultados Reais</h2>
 
 <img src="before-after-1.jpg">
 <img src="before-after-2.jpg">
@@ -128,35 +143,47 @@ QUERO RECEBER E PAGAR NA ENTREGA
 
 <div class="depoimento">
 ⭐⭐⭐⭐⭐<br>
-“Eu já tinha testado várias progressivas e nenhuma funcionou assim. Ficou liso de verdade!”<br>
-— Juliana M., SP
+“Meu cabelo ficou alinhado e com brilho incrível. Muito melhor do que eu esperava.”<br>
+— Cliente Verificada
 </div>
 
 <div class="depoimento">
 ⭐⭐⭐⭐⭐<br>
-“Sem cheiro forte e super fácil de aplicar. Vale muito a pena.”<br>
-— Camila R., RJ
+“Aplicação fácil e resultado rápido. Recomendo demais.”<br>
+— Cliente Satisfeita
 </div>
 
-<h2>Como Funciona?</h2>
+<h2>Perguntas Frequentes</h2>
 
-<p>
-1️⃣ Você preenche o formulário<br>
-2️⃣ Recebe o produto na sua casa<br>
-3️⃣ Paga somente quando receber
-</p>
-
-<div class="garantia">
-🔒 Compra segura<br>
-📦 Enviamos para todo Brasil<br>
-💳 Sem pagamento antecipado
+<div class="faq">
+<strong>É compatível com outras químicas?</strong><br>
+Sim, a fórmula vegetal é compatível com a maioria das químicas.
 </div>
 
-<a class="cta" href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150" target="_blank">
-SIM, QUERO PAGAR NA ENTREGA
+<div class="faq">
+<strong>Em quanto tempo chega?</strong><br>
+O prazo varia conforme sua região, informado no momento do envio.
+</div>
+
+<div class="faq">
+<strong>Como funciona o recebimento?</strong><br>
+Você informa seus dados, recebe em casa e acerta diretamente no ato da entrega.
+</div>
+
+<a class="cta" href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150">
+SIM, QUERO RECEBER O MEU
 </a>
 
 </div>
+
+<script>
+document.querySelectorAll(".cta").forEach(botao => {
+  botao.addEventListener("click", function(){
+    this.innerHTML = "Redirecionando para garantir seu envio...";
+    this.style.opacity = "0.7";
+  });
+});
+</script>
 
 </body>
 </html>
