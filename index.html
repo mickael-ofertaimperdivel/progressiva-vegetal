@@ -5,22 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Progressiva Vegetal Premium</title>
 
-<!-- Pre conexão com Logzz (deixa mais rápido) -->
-<link rel="preconnect" href="https://entrega.logzz.com.br">
-<link rel="dns-prefetch" href="https://entrega.logzz.com.br">
-
-<!-- Pixel Meta -->
+<!-- Meta Pixel -->
 <script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
+
 fbq('init', '730000598051914');
 fbq('track', 'PageView');
+fbq('track', 'ViewContent');
 </script>
 
 <style>
@@ -28,40 +26,41 @@ body{
 margin:0;
 font-family:Arial, sans-serif;
 background:#f4f4f4;
-text-align:center;
+color:#333;
 }
 .container{
-max-width:500px;
+max-width:600px;
 margin:auto;
 padding:20px;
 }
 h1{
-font-size:22px;
+font-size:24px;
 color:#1b5e20;
+text-align:center;
 }
 .badge{
 background:#fff3cd;
-padding:10px;
+padding:12px;
 border-radius:8px;
 margin:15px 0;
-font-size:14px;
+text-align:center;
 }
 img{
 max-width:100%;
 border-radius:10px;
+margin:15px 0;
 }
 .beneficios{
-text-align:left;
-padding:0;
-list-style:none;
+padding-left:20px;
 }
 .beneficios li{
-margin:8px 0;
+margin-bottom:8px;
 }
 .cta{
 display:block;
 background:#28a745;
 color:white;
+text-align:center;
 padding:18px;
 font-size:18px;
 border-radius:10px;
@@ -69,11 +68,9 @@ text-decoration:none;
 font-weight:bold;
 margin:20px 0;
 }
-.cta:hover{
-background:#218838;
-}
 .seguro{
-font-size:13px;
+font-size:14px;
+text-align:center;
 color:#555;
 }
 .depoimento{
@@ -81,7 +78,15 @@ background:white;
 padding:15px;
 border-radius:10px;
 margin:15px 0;
-font-size:14px;
+}
+.faq{
+background:white;
+padding:15px;
+border-radius:10px;
+margin:15px 0;
+}
+h2{
+color:#1b5e20;
 }
 </style>
 
@@ -92,32 +97,37 @@ font-size:14px;
 
 <h1>🌿 Liso Natural Já na Primeira Aplicação</h1>
 
-<p><strong>Progressiva Vegetal Premium</strong></p>
+<p><strong>Progressiva Vegetal Premium</strong> desenvolvida para reduzir volume, alinhar os fios e proporcionar brilho intenso.</p>
 
 <div class="badge">
 🚚 Receba em Casa e Acerte Somente no Momento da Entrega
 </div>
 
-<img src="product.webp" alt="Progressiva Vegetal Premium" loading="lazy">
+<img src="product.webp" alt="Progressiva Vegetal Premium">
 
 <ul class="beneficios">
 <li>✔ Fórmula vegetal</li>
 <li>✔ Sem formol</li>
 <li>✔ Não arde os olhos</li>
 <li>✔ Compatível com outras químicas</li>
-<li>✔ Resultado já na primeira aplicação</li>
+<li>✔ Resultado visível já na primeira aplicação</li>
 </ul>
 
 <a class="cta"
-href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150"
+href="https://entrega.logzz.com.br/pay/mem0gg6x4/progcreme150-teste-01-221125"
 target="_blank"
-onclick="fbq('track', 'InitiateCheckout');">
+onclick="fbq('track','InitiateCheckout');">
 QUERO RECEBER EM CASA
 </a>
 
 <p class="seguro">
-🔒 Seus dados estão protegidos. Você só paga quando receber.
+🔒 Você só paga quando receber.
 </p>
+
+<h2>Resultados Reais</h2>
+
+<img src="before-after-1.jpg">
+<img src="before-after-2.jpg">
 
 <div class="depoimento">
 ⭐⭐⭐⭐⭐<br>
@@ -126,7 +136,19 @@ QUERO RECEBER EM CASA
 
 <div class="depoimento">
 ⭐⭐⭐⭐⭐<br>
-“Aplicação fácil e resultado rápido. Recomendo demais.”
+“Aplicação fácil e resultado rápido.”
+</div>
+
+<h2>Perguntas Frequentes</h2>
+
+<div class="faq">
+<strong>É compatível com outras químicas?</strong><br>
+Sim.
+</div>
+
+<div class="faq">
+<strong>Em quanto tempo chega?</strong><br>
+Prazo informado no envio.
 </div>
 
 </div>
